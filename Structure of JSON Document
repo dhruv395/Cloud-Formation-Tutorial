@@ -1,8 +1,8 @@
-AWS Template Formate version
-Description
+AWS Template Formate version: 'version date'
+Description: string
 Metadata
-Parameters
-Mappings
-Conditions
-Outputs
-Resources (Main part)
+Parameters: like cidr range,
+Mappings:  regional or environment specific values
+Conditions: inputs 
+Outputs:  public ips, rds end point
+Resources (Main part): ec2, rds, s3
